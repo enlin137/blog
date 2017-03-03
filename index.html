@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="author" content="zel" />
+		<meta name="copyright" content="wwww.zuoenlin.com" />
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+		<title>左恩林的博客</title>
+		
+		<!--页面样式 star-->
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<!--页面样式 end-->
+		
+		<!--公共 js star-->
+		<script type="text/javascript" src="js/jquery.min.js" ></script>
+		<script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+		<!--公共 js end-->
+	</head>
+	<body>
+		<!--头部-->
+		<header class="header">
+			<div class="top">
+				<div class="w_1200">
+					<span class="name">您好！欢迎来到左恩林的博客~</span>
+					<div class="fr">
+						<a href="login.html" class="login"><img src="images/1_02.png"/>登录</a>
+						<!--<span class="tel"><img src="images/1_01.png"/>13688174934</span>-->
+					</div>
+				</div>			
+			</div>
+			<div class="navbar w_1200">
+				<div class="logo fl">
+					<a href="index.html"><img src="images/logo.png"/></a>
+				</div>
+				<div class="nav fl">
+					<ul>
+						<li class="on"><a href="#">首页</a></li>
+						<li><a href="#">个人专区</a></li>
+						<li><a href="#">文章专区</a></li>
+						<li><a href="#">资源专区</a></li>
+						<li><a href="#">摄影专区</a></li>
+					</ul>
+				</div>
+			</div>
+		</header>
+		<!--头部-->
+		
+		<!-- Swiper -->
+		<div class="banner">
+			<div class="swiper-container gallery-top">
+		        <div class="swiper-wrapper">
+		           <div class="swiper-slide" style="background-image:url(images/nature1.jpg)"></div>
+		            <div class="swiper-slide" style="background-image:url(images/nature2.jpg)"></div>
+		            <div class="swiper-slide" style="background-image:url(images/nature3.jpg)"></div>
+		            <div class="swiper-slide" style="background-image:url(images/nature4.jpg)"></div>
+		            <div class="swiper-slide" style="background-image:url(images/nature5.jpg)"></div>
+		        </div>
+		   </div>
+		</div>	    
+	    <!-- Swiper -->
+	    
+	    <!--主体内容-->
+	    <div class="w_1200">
+	    	<div class="title">
+	    		
+	    	</div>
+	    </div>
+	    <!--主体内容-->
+	</body>
+	<script>
+		var galleryTop = new Swiper('.gallery-top', {
+			effect : 'cube',
+			cube: {
+			  slideShadows: true,
+			  shadow: true,
+			  shadowOffset: 100,
+			  shadowScale: 0.6
+			},
+	        loop:true,
+	        autoplay:3000,
+	        autoplayDisableOnInteraction : false,
+	        grabCursor : true,
+	   });
+	</script>
+</html>
